@@ -43,6 +43,7 @@ struct GeneralSettingsView: View {
                     Text("Default Zoom Level")
                     Spacer()
                     Picker("", selection: $defaultZoomLevel) {
+                        Text("1.0x").tag(1.0)
                         Text("1.5x").tag(1.5)
                         Text("2x").tag(2.0)
                         Text("2.5x").tag(2.5)

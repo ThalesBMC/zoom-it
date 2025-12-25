@@ -40,7 +40,7 @@ struct MenuBarView: View {
                     Image(systemName: "minus.magnifyingglass")
                         .foregroundColor(.secondary)
                     
-                    Slider(value: $zoomLevel, in: 1.5...6.0, step: 0.5)
+                    Slider(value: $zoomLevel, in: 1.0...6.0, step: 0.5)
                         .tint(.accentColor)
                     
                     Image(systemName: "plus.magnifyingglass")

@@ -195,7 +195,7 @@ class IslandView: NSView {
 
 class ZoomView: NSView {
     private var zoomLevel: CGFloat
-    private let minZoom: CGFloat = 1.5
+    private let minZoom: CGFloat = 1.0
     private let maxZoom: CGFloat = 10.0
     weak var islandView: IslandView?
     
